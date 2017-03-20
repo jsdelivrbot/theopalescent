@@ -14,7 +14,7 @@ import Articles from './components/articles';
 import Reviews from './components/reviews';
 
 export default (
-  <Route path="/theopalescent/" component={App}>
+  <Route path="/" component={App}>
     <IndexRoute component={Home} />
     <Route path='submissions' component={Submissions} />
     <Route path='about' component={About} />
