@@ -1,0 +1,147 @@
+body {
+  background-color: #FFFCF7 !important;
+}
+
+form a {
+  margin-left: 5px;
+}
+
+.nav, .nav-sub {
+  background-color: #9C89B8;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-sub {
+  background-color: #67597A;
+}
+
+.row, .row-sub {
+  height: 100%;
+  height: 68px;
+}
+
+.row-sub {
+  height: 51px;
+}
+
+.navbar-brand {
+  font-family: 'Poiret One', cursive;
+  color: #FFFCF7;
+  font-size: 2.5em !important;
+}
+
+.vertical-align, .vertical-align-sub {
+  position: relative;
+  top: 63%;
+  transform: translateY(-50%);
+  float: right;
+}
+
+.vertical-align-sub {
+  top: 50%;
+  float: none;
+  /*margin: auto;*/
+  padding: auto;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.vertical-align-theme {
+  margin-top: .5rem;
+  float: none;
+  padding: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-item, .nav-item-sub {
+  color: #FFFCF7;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav-item-sub {
+  border: 2px solid #9C89B8;
+  border-radius: 5px;
+  background-color: #9C89B8;
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+.nav-item:hover, .nav-item:focus, .nav-item-sub:hover, .nav-item-sub:focus, .navbar-brand:hover, .navbar-brand:focus {
+  color: #f2e9da;
+  text-decoration: none;
+}
+
+.panel {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.small-text {
+  font-size: 0.75em;
+  text-align: center;
+  color: #999;
+}
+
+.half, .half-theme {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.half-theme {
+  padding: 10px 0 10px 0;
+}
+
+.social {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.img-about {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+#large-container {
+  height: 2000px;
+}
+
+#affix {
+  z-index: 1000;
+}
+
+#outer-container {
+  margin-top: 30px !important;
+}
+
+#outer-container-fixed {
+  margin-top: 81px !important;
+}

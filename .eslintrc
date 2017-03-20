@@ -1,0 +1,9 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+    "react/require-extension": "off"
+    },
+  "settings": {
+    "import/core-modules": ["react", "react-native"]
+    }
+}
