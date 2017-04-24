@@ -1,12 +1,13 @@
 import React from 'react';
 import { Panel, Col } from 'react-bootstrap';
 
-const PoemCol = ({ title, author, content }) => {
+const PoemCol = ({ title, author, content, weight, children }) => {
   return (
-    <Col sm={6}>
+    <Col sm={weight}>
       <h4>{title} - {author}</h4>
       <Panel>
-        {content}
+        {/* {content} */}
+        {children}
       </Panel>
     </Col>
   );
