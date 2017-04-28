@@ -31,10 +31,10 @@ class Poetry extends Component {
         &nbsp;
         <PoemRow>
           <PoemCol
-            weight={12}
+            weight={6}
             title="Sophie"
             author="Jessica Blain"
-            >
+          >
             <p><i>Always believe in yourself.</i></p>
             <p>
               Some days we just lie under my blankets,<br />
@@ -59,6 +59,36 @@ class Poetry extends Component {
             </p>
             <p><i>you will have nothing to fear.</i></p>
             <p><i>-Quote from The Cat Returns</i></p>
+          </PoemCol>
+          <PoemCol
+            weight={6}
+            title="Recovery"
+            author="Fran Donald"
+          >
+            <p>
+              There are places in the world so dry<br />
+              we can be tricked into believing nothing will grow.
+            </p>
+            <p>
+              In the deserts of Peru, plants hold<br />
+              their breath beneath this cracked belt of earth
+            </p>
+            <p>
+              so quiet we might think they have died<br />
+              under the lash. But they know fog will soften the leather
+            </p>
+            <p>
+              and when it rolls by in winter, they poke<br />
+              through the crust and the holes where the brass clasp
+            </p>
+            <p>
+              would keep in the belly of them<br />
+              but no more. When we see what they become
+            </p>
+            <p>
+              each flower-bud, each stem<br />
+              it is hard to believe they weren’t like this before.
+            </p>
           </PoemCol>
         </PoemRow>
         {/* <h4 className="half-theme">There are no entries</h4>
